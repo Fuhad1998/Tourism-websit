@@ -1,0 +1,21 @@
+.book-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+  }
+  .book-form input{
+    width: 40%;
+    margin-bottom: 10px;
+  }
+    
+  .conform-submit{
+    border-radius: 5px;
+    background-color:goldenrod;
+    border: 1px solid gray;
+    
+  
+  }
+  

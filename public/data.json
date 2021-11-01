@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Economy(For 01 Person)",
+      "img": "https://i.ibb.co/DCC8sL8/Background-1.png",
+      "detele1": "Complimentary",
+      "detele": "Breakfast",
+      "description": "Though shipping services vary by courier, you can choose from expedited shipping, standard shipping, and economy services. Economy shipping is excellent for package that isn’t time-sensitive. Alternatively, expedited shipping will deliver your package in the quickest amount of time.",
+      "id": 1
+    },
+    {
+      "name": "Business(For 01 Person)",
+      "img": "https://i.ibb.co/6WKw3j0/Background-5.png",
+      "detele1": "Complimentary",
+      "detele": "Breakfast",
+      "description": "Though shipping services vary by courier, you can choose Business class,  Business class. Business class is excellent for package that isn’t time-sensitive. Alternatively, expedited shipping will deliver your package in the quickest amount of time",
+      "id": 2
+    },
+    {
+      "name": "Bunker Bed(For 01 Person)",
+      "img": "https://i.ibb.co/W0KpksD/Background-9.png",
+      "detele1": "Complimentary",
+      "detele": "Breakfast, Dinner",
+      "description": "Though shipping services vary by courier, you can choose Bunker Bed,  Bunker Bed. Bunker Bed is excellent for package that isn’t time-sensitive. Alternatively, expedited shipping will deliver your package in the quickest amount of time",
+      "id": 3
+    },
+    {
+      "name": "Presidential(For 02 Persons)",
+      "img": "https://i.ibb.co/DzH9NjW/Background-3.png",
+      "detele1": "Complimentary",
+      "detele": "Breakfast, Dinner",
+      "description": "Though shipping services vary by courier, you can choose Presidential,  Presidential. Presidential is excellent for package that isn’t time-sensitive. Alternatively, expedited shipping will deliver your package in the quickest amount of time",
+      "id": 4
+    },
+    {
+      "name": "Royal(For 02 persons)",
+      "img": "https://i.ibb.co/86gytNd/Background-4.png",
+      "detele1": "Complimentary",
+      "detele": "Breakfast, Dinner",
+      "description": "Though shipping services vary by courier, you can choose Royal,  Royal. Royal is excellent for package that isn’t time-sensitive. Alternatively, expedited shipping will deliver your package in the quickest amount of time",
+      "id": 5
+    },
+    {
+      "name": "VVIP(For 02 persons)",
+      "img": "https://i.ibb.co/SvdRMvL/Background-7.png",
+      "detele1": "Complimentary",
+      "detele": "Breakfast, Dinner",
+      "description": "Though shipping services vary by courier, you can choose VVIP,  VVIP. VVIP is excellent for package that isn’t time-sensitive. Alternatively, expedited shipping will deliver your package in the quickest amount of time",
+      "id": 6
+    },
+    {
+      "name": "VVIP(For 04 persons)",
+      "img": "https://i.ibb.co/s2GZQrT/Background-2.png",
+      "detele1": "Complimentary",
+      "detele": "Breakfast, Dinner",
+      "description": "Though shipping services vary by courier, you can choose VVIP(For 04 persons),  VVIP(For 04 persons). VVIP(For 04 persons) is excellent for package that isn’t time-sensitive. Alternatively, expedited shipping will deliver your package in the quickest amount of time",
+      "id": 7
+    },
+    {
+      "name": "Family (For 04 persons)",
+      "img": "https://i.ibb.co/SvdRMvL/Background-7.png",
+      "detele1": "Complimentary",
+      "detele": "Breakfast, Dinner",
+      "description": "Though shipping services vary by courier, you can choose Family, Family. Familys is excellent for package that isn’t time-sensitive. Alternatively, expedited shipping will deliver your package in the quickest amount of time",
+      "id": 8
+    }
+  ]

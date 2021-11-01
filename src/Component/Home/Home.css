@@ -1,0 +1,13 @@
+.btn-section{
+    border-radius: 5px;
+    background-color:goldenrod;
+    border: 1px solid gray;
+}
+.btn-link{
+    text-decoration: none;
+    color:black;
+}
+.btn-link:hover{
+    color:black;
+    font-weight: 600;
+}
