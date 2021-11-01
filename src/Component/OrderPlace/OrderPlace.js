@@ -10,7 +10,7 @@ const OrderPlace = () => {
     const { id } = useParams();
     console.log(id)
     useEffect(() => {
-      fetch("./data.json")
+      fetch(`https://infinite-reef-23631.herokuapp.com/services`)
         .then((res) => res.json())
         .then((data) => setService(data));
     }, []);
@@ -23,7 +23,7 @@ const OrderPlace = () => {
         <div>
        
       <img src={item?.img} alt="" />
-      <h1>{item?.name}</h1>
+      <h1>{item?.description}</h1>
    <div>
        <h1>Please Conform To Book</h1>
    <form className="book-form" onSubmit={handleSubmit(onSubmit)}>

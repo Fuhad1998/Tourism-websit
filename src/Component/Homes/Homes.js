@@ -6,7 +6,7 @@ import Home from "../Home/Home";
 const Homes = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("./data.json")
+    fetch(`https://infinite-reef-23631.herokuapp.com/services`)
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
@@ -21,7 +21,7 @@ const Homes = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="https://i.ibb.co/HDXYfKP/Background-2.png"
+              src="https://i.ibb.co/zRYKQF1/banner-1.png"
               className="d-block w-100"
               alt="..."
             />
