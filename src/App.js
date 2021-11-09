@@ -12,6 +12,9 @@ import Login from './Component/Login/Login';
 import AuthProvider from './Context/AuthProvider';
 import PrivadeRoude from './Component/PrivadeRoude/PrivadeRoude';
 import OrderPlace from './Component/OrderPlace/OrderPlace';
+import MyOrders from './Component/MyOrders/MyOrders';
+import ManageAllOrders from './Component/MamageAllOrders/ManageAllOrders';
+import AddNewService from './Component/MyOrders/AddNewService/AddNewService';
 
 function App() {
   return (
@@ -26,9 +29,6 @@ function App() {
         <Route path="/homes">
           <Homes></Homes>
         </Route>
-        <Route path="/schedule">
-          <Schedule></Schedule>
-        </Route>
         <Route path="/aboutUs">
         <AboutUs></AboutUs>
         </Route>
@@ -37,6 +37,15 @@ function App() {
         </Route>
         <PrivadeRoude path="/orderPlace/:id">
           <OrderPlace></OrderPlace>
+        </PrivadeRoude>
+        <PrivadeRoude path="/myOrders">
+          <MyOrders></MyOrders>
+        </PrivadeRoude>
+        <PrivadeRoude path="/manageAllOrders">
+          <ManageAllOrders></ManageAllOrders>
+        </PrivadeRoude>
+        <PrivadeRoude path="/addNewService">
+          <AddNewService></AddNewService>
         </PrivadeRoude>
         <Route path="*">
           <NotFound></NotFound>

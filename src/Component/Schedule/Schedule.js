@@ -4,14 +4,14 @@ const Schedule = () => {
   return (
     
       
-<div className="container">
+<div className="container ">
     <div>
         <h2>Upcoming Schedule Of Fuwad's Cruise Ship</h2>
     <h3>Chattogram-Saint Martin-Chattogram</h3>
     </div>
     <div>
         
-      <table className="table container table-primary">
+      <table className="table container table-primary shadow p-3 mb-5 bg-body rounded">
           
           <thead>
             <tr>
