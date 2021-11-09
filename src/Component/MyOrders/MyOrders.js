@@ -6,14 +6,14 @@ const MyOrders = () => {
  const [myOrders, setMhOrders] = useState([]);
  const { user } = useAuth();
  useEffect(()=>{
-   fetch('http://localhost:5000/orders')
+   fetch('https://young-plateau-63014.herokuapp.com/orders')
    .then(res => res.json())
    .then(data=>setMhOrders(data))
  },[])
 
  // delete a order
 const handelDelateOrder = id =>{
-const url = `http://localhost:5000/orders/${id}`
+const url = `https://young-plateau-63014.herokuapp.com/orders/${id}`
  fetch(url, {
    method: 'DELETE'
  })

@@ -11,7 +11,7 @@ const OrderPlace = () => {
   const item = service.find((pd) => pd.id == id);
   // console.log(id);
   useEffect(() => {
-    fetch(`https://infinite-reef-23631.herokuapp.com/services`)
+    fetch(`https://young-plateau-63014.herokuapp.com/services`)
       .then((res) => res.json())
       .then((data) => setService(data));
       // console.log(service)
@@ -20,7 +20,7 @@ const OrderPlace = () => {
   const onSubmit = (data) => {
     data.orderName = item.name;
     
-    fetch('http://localhost:5000/orders',{
+    fetch('https://young-plateau-63014.herokuapp.com/orders',{
       method:'POST',
       headers:{
         'content-type':'application/json'

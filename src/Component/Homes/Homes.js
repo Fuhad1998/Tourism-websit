@@ -10,7 +10,7 @@ import Schedule from "../Schedule/Schedule";
 const Homes = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch(`https://infinite-reef-23631.herokuapp.com/services`)
+    fetch(`https://young-plateau-63014.herokuapp.com/services`)
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
