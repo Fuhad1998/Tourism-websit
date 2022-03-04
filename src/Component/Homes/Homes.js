@@ -17,11 +17,13 @@ const Homes = () => {
   return (
     <div className="">
       <Banner></Banner>
+      <div className="container">
       <div className="row">
       <h1>Our <span className="text-primary">Services</span></h1>
         {services.map((services) => (
           <Home key={services.id} services={services}></Home>
         ))}
+      </div>
       </div>
       <Gallery></Gallery>
       <Schedule></Schedule>
